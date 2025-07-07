@@ -45,8 +45,23 @@ footer{
     cursor:pointer;
     
 }
+
+
+
 .col-6{
     background-color: rgb(140, 221, 233);
     margin: 40px; 
     width: 40%;
+    
 }
+.progress{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 400px;
+}
+

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Category </title>
+        <title>difficulty</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../styles/style.css">
     </head>
 
-    <header style="display: flex; background-color:rgb(241, 243, 225); height: 70px;" >
+    <header style="display: flex; background-color:rgb(241, 243, 225); height: 70px;">
         <div>
             <img src="../Images/logo.jpg" style="width: 130px; height:70px" >
         </div>
@@ -17,48 +17,44 @@
         </div>
     </header>
     <br><br><br>
-    
-    <h2 style="color: white; text-align: center;">Categories</h2>
-    <body class="category">
-        <div class="container text-center">
-  <div class="row g-4" >
-    <div class="col-6">
-      <div class="p-3">Sports</div>
+    <body>
+
+        <div class="row g-4" >
+
+            <div style=" display: flex;" class="col-6 progress1">
+      <div class="p-3">School</div>
+      <div class="progress" style="margin-left: 370px;">3/30</div>
+            </div>
+
+    <div style=" display: flex;" class="col-6">
+      <div class="p-3" >Easy</div>
+      <div class="progress">3/30</div>
     </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
+    <div style=" display: flex;" class="col-6">
+      <div class="p-3">Medium</div>
+      <div class="progress" style="margin-left: 360px;">3/30</div>
+
     </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
+    <div style=" display: flex;" class="col-6 progress1">
+      <div class="p-3">Hard</div>
+      <div class="progress">3/30</div>
+
     </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
-    </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
-    </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
-    </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
-    </div>
-    <div class="col-6">
-      <div class="p-3">Sports</div>
-    </div>
-    
-  </div>
-</div>
+
+        </div>
+
     </body>
-    <footer>
+
+     <footer>
         <p style="padding: 10px 30px;">@All rights reserved</p>
     </footer>
 
+
     <script>
-      let category = document.getElementsByClassName("col-6");
+        let category = document.getElementsByClassName("col-6");
       for(var key in category){
         category[key].addEventListener('click' , () =>{
-          window.location.href="../html/difficulty.html"
+          window.location.href="../html/quiz.html"
         }
         )
       }

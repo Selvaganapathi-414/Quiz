@@ -1,0 +1,52 @@
+form{
+    width: 35%;
+    margin:auto;
+    margin-top: 16%;
+    background-color: antiquewhite;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+body{
+    background-color: rgb(12, 8, 38);
+}
+p{
+    font-size: 19px;
+    font-weight: bolder;
+    color:midnightblue
+}
+
+.index{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{
+    list-style: none;
+    color: black;
+}
+
+footer a{
+   color: black;
+   text-decoration: none;
+   
+}
+
+footer{
+    background-color: rgb(241, 243, 225); 
+}
+
+.p-3{
+    font-size: 25px;
+}
+
+.col-6 :hover{
+    cursor:pointer;
+    
+}
+.col-6{
+    background-color: rgb(140, 221, 233);
+    margin: 40px; 
+    width: 40%;
+}
